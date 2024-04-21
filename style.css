@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 
-.footer{
+.header{
     background-color: darkslategray;
     overflow: hidden;
     height: 300px;
@@ -64,4 +64,88 @@ body{
     border: none;
     padding: 5px 25px;
     border-radius: 8px;
+}
+
+.main-body{
+    height: 600px;
+    overflow: hidden;
+}
+
+.main-body h2{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boxes{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.boxes p{
+    position: absolute;
+    bottom: -100px;
+}
+
+.quote-box{
+    background-color: lightgray;
+    position: absolute;
+    text-align: center;
+    bottom: 150px;
+    height: 200px;
+}
+
+.quote-box p{
+    transform: translate(0, 50px);
+}
+
+.title{
+    padding-left: 300px
+}
+
+.action-menu{
+    position: absolute;
+    bottom: 70px;
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+.action-menu h4{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+}
+
+.action-menu p{
+    color: whitesmoke;
+    position: absolute;
+    left: 40px;
+}
+
+.action-button{
+    background-color: dodgerblue;
+    position: absolute;
+    left: 85%;
+    top: 30%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.footer{
+    background-color: darkslategrey;
+    overflow: hidden;
+    text-align: center;
 }
